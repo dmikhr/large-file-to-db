@@ -7,7 +7,8 @@ To run example apply sample SQLite3 schema run `sqlite3`:<br>
 ```
 sqlite3 sample.db < sample_schema.sql
 ```
-Generate sample .csv file. If you want to change number of columns make changes in database schema accordingly.
+Generate sample .csv file. If you want to change number of columns make changes in database schema accordingly.<br>
+By default it generates only 10000 lines, so you can try it quickly and see how it works. When you become comfortable with code set it to 10M+ to generate large files.
 ```
 python file_generator_test.py
 ```
