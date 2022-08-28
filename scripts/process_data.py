@@ -24,7 +24,7 @@ class ProcessData:
 
     def _process_line(self, line):
         """
-        _process_line is specific to file format, here it just return input param
+        _process_line is specific to file format, here it just returns input param
         override this method to implement data parsing for your particular case
 
         :param str line: line from plain text file
